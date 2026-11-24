@@ -1,0 +1,212 @@
+{
+    "models": {
+        "Random Forest": {
+            "accuracy": 89.1,
+            "precision": 89.81,
+            "recall": 89.64,
+            "f1_score": 89.73,
+            "roc_auc": 95.62,
+            "confusion_matrix": [
+                [
+                    415,
+                    54
+                ],
+                [
+                    55,
+                    476
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.8829787234042553,
+                    "recall": 0.8848614072494669,
+                    "f1-score": 0.8839190628328009,
+                    "support": 469.0
+                },
+                "1": {
+                    "precision": 0.8981132075471698,
+                    "recall": 0.896421845574388,
+                    "f1-score": 0.8972667295004713,
+                    "support": 531.0
+                },
+                "accuracy": 0.891,
+                "macro avg": {
+                    "precision": 0.8905459654757126,
+                    "recall": 0.8906416264119275,
+                    "f1-score": 0.8905928961666361,
+                    "support": 1000.0
+                },
+                "weighted avg": {
+                    "precision": 0.8910151344841429,
+                    "recall": 0.891,
+                    "f1-score": 0.891006673833334,
+                    "support": 1000.0
+                }
+            }
+        },
+        "Logistic Regression": {
+            "accuracy": 88.8,
+            "precision": 90.84,
+            "recall": 87.76,
+            "f1_score": 89.27,
+            "roc_auc": 96.26,
+            "confusion_matrix": [
+                [
+                    422,
+                    47
+                ],
+                [
+                    65,
+                    466
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.86652977412731,
+                    "recall": 0.8997867803837953,
+                    "f1-score": 0.8828451882845189,
+                    "support": 469.0
+                },
+                "1": {
+                    "precision": 0.9083820662768031,
+                    "recall": 0.8775894538606404,
+                    "f1-score": 0.89272030651341,
+                    "support": 531.0
+                },
+                "accuracy": 0.888,
+                "macro avg": {
+                    "precision": 0.8874559202020565,
+                    "recall": 0.8886881171222178,
+                    "f1-score": 0.8877827473989643,
+                    "support": 1000.0
+                },
+                "weighted avg": {
+                    "precision": 0.8887533412586909,
+                    "recall": 0.888,
+                    "f1-score": 0.8880888760640601,
+                    "support": 1000.0
+                }
+            }
+        },
+        "Decision Tree": {
+            "accuracy": 84.9,
+            "precision": 85.45,
+            "recall": 86.25,
+            "f1_score": 85.85,
+            "roc_auc": 91.6,
+            "confusion_matrix": [
+                [
+                    391,
+                    78
+                ],
+                [
+                    73,
+                    458
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.8426724137931034,
+                    "recall": 0.8336886993603412,
+                    "f1-score": 0.8381564844587353,
+                    "support": 469.0
+                },
+                "1": {
+                    "precision": 0.8544776119402985,
+                    "recall": 0.8625235404896422,
+                    "f1-score": 0.8584817244611059,
+                    "support": 531.0
+                },
+                "accuracy": 0.849,
+                "macro avg": {
+                    "precision": 0.8485750128667009,
+                    "recall": 0.8481061199249917,
+                    "f1-score": 0.8483191044599205,
+                    "support": 1000.0
+                },
+                "weighted avg": {
+                    "precision": 0.8489409740092639,
+                    "recall": 0.849,
+                    "f1-score": 0.8489491868999941,
+                    "support": 1000.0
+                }
+            }
+        }
+    },
+    "best_model": "Random Forest",
+    "feature_importance": [
+        {
+            "feature": "oldpeak",
+            "importance": 0.3088
+        },
+        {
+            "feature": "exang",
+            "importance": 0.2007
+        },
+        {
+            "feature": "ca",
+            "importance": 0.1539
+        },
+        {
+            "feature": "cp",
+            "importance": 0.0982
+        },
+        {
+            "feature": "slope",
+            "importance": 0.0716
+        },
+        {
+            "feature": "thalach",
+            "importance": 0.0467
+        },
+        {
+            "feature": "age",
+            "importance": 0.043
+        },
+        {
+            "feature": "thal",
+            "importance": 0.0357
+        },
+        {
+            "feature": "trestbps",
+            "importance": 0.0243
+        },
+        {
+            "feature": "chol",
+            "importance": 0.0121
+        },
+        {
+            "feature": "restecg",
+            "importance": 0.0021
+        },
+        {
+            "feature": "sex",
+            "importance": 0.0017
+        },
+        {
+            "feature": "fbs",
+            "importance": 0.0012
+        }
+    ],
+    "feature_names": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "dataset_summary": {
+        "total_samples": 5000,
+        "features_count": 13,
+        "positive_cases": 2657,
+        "negative_cases": 2343
+    }
+}
