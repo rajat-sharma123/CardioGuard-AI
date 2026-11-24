@@ -1,6 +1,11 @@
 # 🩺 CardioGuard: Heart Disease Risk Assessment System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pulsera.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/rajat-sharma123/CardioGuard-AI)
+
 An end-to-end Machine Learning web application designed for cardiovascular risk stratification and clinical decision support. Built using **Python**, **Scikit-Learn**, and **Streamlit**.
+
+🔗 **Live Production Web App:** [https://pulsera.streamlit.app/](https://pulsera.streamlit.app/)
 
 ---
 
